@@ -200,6 +200,16 @@ h1 {
     letter-spacing: 0.75px;
 }
 
+.copyBtn{
+    background-color: transparent;
+    border:none;
+    outline:none;
+}
+.copyBtn:hover{
+    transition: all 0.2s;
+    scale: 1.2;
+}
+
 .tooltip {
     position: absolute;
     background-color: var(--vb-violet2);
